@@ -2,7 +2,7 @@
 
 
 # 💫 About Me:
-Hello ,Im Shishir Shastry BH,CSE student intrested in WebDev and Design .<br>Trying to Create  Mindblowing websites.
+Hello ,I am  Shishir Shastry BH,CSE student intrested in WebDev and Design .<br>Trying to Create  Mindblowing websites.
 
 
 ## 🌐 Socials:
@@ -18,8 +18,6 @@ Hello ,Im Shishir Shastry BH,CSE student intrested in WebDev and Design .<br>Try
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ShishirShastry&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4)
 
-### 😂 Random Dev Meme
-<img src="https://rm.up.railway.app/" width="512px"/>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ShishirShastry)](https://visitcount.itsvg.in)
