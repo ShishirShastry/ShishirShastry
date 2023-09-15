@@ -1,6 +1,3 @@
-### Hi there 👋
-
-
 # 💫 About Me:
 
 <h1 align="center">Hello 👋,I am  Shishir Shastry BH, CSE student interested in WebDev and Design .<br> Trying to Create  Mindblowing websites.</h1>
