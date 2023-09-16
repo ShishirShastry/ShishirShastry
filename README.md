@@ -3,9 +3,6 @@
 <h1 align="center">Hello 👋,I am  Shishir Shastry BH, CSE student interested in WebDev and Design .<br> Trying to Create  Mindblowing websites.</h1>
 <h3 align="center">A passionate CSE student</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shishirshastry&label=Profile%20views&color=0e75b6&style=flat" alt="shishirshastry" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shishirshastry" alt="shishirshastry" /></a> </p>
 
 - 🔭 I’m currently working on [MCCoffeeRoosters website](https://github.com/ShishirShastry/MC-Coffee-Roosters)
 
@@ -20,6 +17,9 @@
 - 💬 Ask me about **java,C**
 
 - 📫 How to reach me **shishirbh2003@gmail.com**
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=shishirshastry&label=Profile%20views&color=0e75b6&style=flat" alt="shishirshastry" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shishirshastry" alt="shishirshastry" /></a> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
