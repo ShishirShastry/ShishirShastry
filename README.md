@@ -17,8 +17,10 @@
 - 💬 Ask me about **java,C**
 
 - 📫 How to reach me **shishirbh2003@gmail.com**
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shishirshastry&label=Profile%20views&color=0e75b6&style=flat" alt="shishirshastry" />
-Portfolio :<a href="https://shishir-shastrybh-portfolio.netlify.app">ShishirShastryBHportfolio</a>
+  <br>
+<p align="left">
+<img src="https://komarev.com/ghpvc/?username=shishirshastry&label=Profile%20views&color=0e75b6&style=flat" alt="shishirshastry" />
+Portfolio :<a href="https://shishir-shastrybh-portfolio.netlify.app">ShishirShastryBHportfolio</a><br>
 </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shishirshastry" alt="shishirshastry" /></a> </p>
