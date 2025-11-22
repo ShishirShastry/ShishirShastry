@@ -1,7 +1,7 @@
 # 💫 About Me:
 
-<h1 align="center">Hello 👋,I am  Shishir Shastry BH, CSE student interested in Gen AI ,AI Agents WebDev and Design .<br> Trying to Create  Mindblowing websites.</h1>
-<h3 align="center">A passionate CSE student</h3>
+<h1 align="center">Hello 👋,I am  Shishir Shastry BH, I am interested in Gen AI ,AI Agents WebDev and Design .<br> Trying to Create  Mindblowing websites.</h1>
+<h3 align="center">A passionate Dev</h3>
 
 
 - 🔭 I’m currently working on AI Agents
