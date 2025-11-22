@@ -4,17 +4,15 @@
 <h3 align="center">A passionate CSE student</h3>
 
 
-- 🔭 I’m currently working on [MCCoffeeRoosters website](https://github.com/ShishirShastry/MC-Coffee-Roosters)
+- 🔭 I’m currently working on AI Agents
 
 - 🌱 I’m currently learning **ReactJS,threeJS**
-
-- 👯 I’m looking to collaborate on [MCCoffeeRoosters website](https://github.com/ShishirShastry/MC-Coffee-Roosters)
 
 - 👨‍💻 All of my projects are available at [https://github.com/ShishirShastry](https://github.com/ShishirShastry)
 
 - 📝 I regularly write articles on [https://hashnode.com/@shishirbh](https://hashnode.com/@shishirbh)
 
-- 💬 Ask me about **java,C**
+- 💬 Ask me about **C,Python,Javascript**
 
 - 📫 How to reach me **shishirbh2003@gmail.com**
   <br>
