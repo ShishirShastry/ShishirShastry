@@ -1,6 +1,6 @@
 # 💫 About Me:
 
-<h1 align="center">Hello 👋,I am  Shishir Shastry BH, CSE student interested in WebDev and Design .<br> Trying to Create  Mindblowing websites.</h1>
+<h1 align="center">Hello 👋,I am  Shishir Shastry BH, CSE student interested in Gen AI ,AI Agents WebDev and Design .<br> Trying to Create  Mindblowing websites.</h1>
 <h3 align="center">A passionate CSE student</h3>
 
 
