@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://shishir-shastrybh-portfolio.netlify.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"><img alt="Portfolio" src="assets/btn-portfolio-light.svg" height="44"></picture></a>
-  <a href="https://www.linkedin.com/in/shishir%20shastry%20bh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="44"></picture></a>
+  <a href="https://www.linkedin.com/in/shishir-shastry-09399b1b0/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="44"></picture></a>
   <a href="https://hashnode.com/@shishirbh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-hashnode-dark.svg"><img alt="Hashnode" src="assets/btn-hashnode-light.svg" height="44"></picture></a>
 </p>
 
