@@ -1,0 +1,76 @@
+# Renders the live profile cards (scripts/cards.mjs) and the contribution snake,
+# then force-pushes them as a single commit to the orphan branch "output".
+# The README links to raw.githubusercontent.com/ShishirShastry/ShishirShastry/output/<file>.
+name: Profile cards
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/cards.yml"
+  schedule:
+    - cron: "23 3 * * *" # daily, 03:23 UTC (off the hour to dodge the scheduler rush)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+
+      - name: Test the card generator
+        run: node --test scripts/cards.test.mjs
+
+      - name: Render live cards
+        run: node scripts/cards.mjs --out dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#00e4ff&color_dots=#1b1829,#4b33a6,#a63cff,#ef67a8,#ff9d5c&color_dot_border=#ffffff0a
+            dist/snake-light.svg?color_snake=#2a62ff&color_dots=#ebe9f3,#c9b8ff,#9b5cff,#e0559a,#ff8a3d&color_dot_border=#10082814
+
+      - name: Publish to the output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          cd dist
+          ls -la
+          cat > README.md <<'EOF'
+          # Generated profile cards
+
+          Built by `.github/workflows/cards.yml` from `scripts/cards.mjs` on `main`.
+          This branch is force-pushed as a single commit on every run: do not edit it by hand.
+          EOF
+          git init --quiet --initial-branch=output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit --quiet --message "Update profile cards $(date -u +%Y-%m-%d)"
+          auth="$(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+          echo "::add-mask::${auth}"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic ${auth}" \
+            push --force --quiet "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:refs/heads/output
+          echo "Published $(git ls-files | wc -l) files to the output branch."
